@@ -35,3 +35,7 @@ name = input("Hello, what is your name? ")
 month = input("Hi " + name + ", What was the name of the month you were born in? ")
 year = input("And what year were you born in, " + name + "? ")
 day = input("And the day? ")
+if month in ["December, January, Febuary"]: 
+    season = ["Winter"]
+if month in ["March, April, May,"]:
+    season = ["Spring"]
