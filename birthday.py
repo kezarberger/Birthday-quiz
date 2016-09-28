@@ -51,4 +51,8 @@ if year in ["1990", "1991", "1992", "1993", "1994", "1995", "1996", "1997", "199
     decade = "nineties"
 if year in ["2000", "2001", "2002", "2003", "2004", "2005", "2006", "2007", "2008", "2009"]:
     decade = "21st century"
-print (name + ", you are a " + str(season) + " baby of the " + str(decade) + ".")
+if month in ["October"] and day in ["31"]:
+    print ("You were born Halloween")
+elif month != ["October"] or day != ["31"]:
+    print (name + ", you are a " + str(season) + " baby of the " + str(decade) + ".")
+
