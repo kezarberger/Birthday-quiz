@@ -32,7 +32,7 @@ Example Session
   Eric, you are a fall baby of the stone age.
 """
 name = input("Hello, what is your name? ")
-mymonth = input("Hi " + name + ", What was the name of the month you were born in? ")
+mymonth = input("Hi " + name + ", what was the name of the month you were born in? ")
 year = input("And what year were you born in, " + name + "? ")
 day = input("And the day? ")
 if mymonth in ["December", "January", "Febuary"]: 
