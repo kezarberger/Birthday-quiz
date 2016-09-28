@@ -1,7 +1,7 @@
 """
 birthday.py
 Author: Kezar Berger
-Credit: Kotz
+Credit: Kotz, 
 Assignment: 
 
 Your program will ask the user the following questions, in this order:
@@ -59,7 +59,7 @@ month = month_name[todaymonth]
 if mymonth == month and todaydate == int(day):
     print ("Happy birthday!")
 elif mymonth in ["October"] and day in ["31"]:
-    print ("You were born Halloween!")
+    print ("You were born on Halloween!")
 elif mymonth != ["October"] or day != ["31"]:
     print (name + ", you are a " + str(season) + " baby of the " + str(decade) + ".")
 
